@@ -1,0 +1,23 @@
+body {
+  font-family: '微軟正黑體',"Open Sans", sans-serif;
+  padding-top: 50px;
+}
+
+.head {font-size: 100px;
+  color:#00838f;}
+
+.photo {height:600px;}
+
+@media(max-width: 500px){.photo {height:200px;}}
+
+.second {padding-top: 50px;}
+
+.third {padding-top: 50px;}
+
+.h2 {color:#00838f;}
+
+.p2{transform: translateX(-10%) rotate(10deg);}
+
+@media(max-width: 500px){.p2{transform: translateX(0%) rotate(0deg);}}
+
+@media(min-width: 500px){.text {padding: 100px 40px;}}
